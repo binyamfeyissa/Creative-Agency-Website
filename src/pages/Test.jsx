@@ -161,7 +161,7 @@ const Test = () => {
         ref={(el) => (sectionsRef.current[1] = el)}
         className="section2"
       >
-        <h1>Second Section</h1>
+        <h1>Second Sectgion</h1>
         <div className="services">
           <div className="services-header">
             <div className="col"></div>
