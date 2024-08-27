@@ -3,6 +3,19 @@
 *::before {
   box-sizing: border-box;
 }
+.blur-text {
+  width: 70vw;
+  max-width: 1000px;
+  min-width: 300px;
+  line-height: 1.2;
+  font-family: "instrument-sans-variable", sans-serif;
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+.blur-text--1 {
+  font-variation-settings: "wght" 420, "wdth" 100;
+  letter-spacing: -0.05em;
+}
 .section1 {
   /* height: 100vh; */
 }

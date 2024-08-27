@@ -159,60 +159,17 @@ const Test = () => {
         data-bg="#FF4000"
         data-textcolor="#EFE7D7"
         ref={(el) => (sectionsRef.current[1] = el)}
-        className="section2"
+        className="co"
       >
-        <h1>Second Sectgion</h1>
-        <div className="services">
-          <div className="services-header">
-            <div className="col"></div>
-            <div className="col">
-              <h1>All Services</h1>
-            </div>
+        <section className="content">
+          <span className="content__number type-small">1</span>
+          <div className="blur-text blur-text--1" data-effect-1>
+            Public opinion is the aggregate result of individual opinions—now
+            uniform, now conflicting—of the men and women who make up society or
+            any group of society. In order to understand public opinion, one
+            must go back to the individual who makes up the group.
           </div>
-
-          <div className="service">
-            <div className="service-info">
-              <h1>lorem ipsum</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur deserunt a cupiditate.
-              </p>
-            </div>
-            <div className="service-img">
-              <div className="img">
-                <img src={placeholder} alt="" />
-              </div>
-            </div>
-          </div>
-          <div className="service">
-            <div className="service-info">
-              <h1>lorem ipsum</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur deserunt a cupiditate.
-              </p>
-            </div>
-            <div className="service-img">
-              <div className="img">
-                <img src={placeholder} alt="" />
-              </div>
-            </div>
-          </div>
-          <div className="service">
-            <div className="service-info">
-              <h1>lorem ipsum</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur deserunt a cupiditate.
-              </p>
-            </div>
-            <div className="service-img">
-              <div className="img">
-                <img src={placeholder} alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
       </section>
       <section
         data-bg="#EFE7D7"

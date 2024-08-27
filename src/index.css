@@ -1,0 +1,10 @@
+.contentk {
+  padding: 10px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  width: 100vw;
+  /* position: relative; */
+  height: 100vh;
+  place-items: center;
+}

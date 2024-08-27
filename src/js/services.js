@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   gsap.ticker.lagSmoothing(0);
 
-  const services = gsap.utils.toArray(".service");
+  const services = gsap.utils.toArray("#service");
   console.log("Number of services found:", services.length);
   const observerOptions = {
     root: null,
